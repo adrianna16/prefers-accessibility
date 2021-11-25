@@ -64,19 +64,23 @@ html {
 /* stylelint-disable media-feature-name-no-unknown */
 
 @media (prefers-reduced-motion) {
+
   .gear {
     animation: none;
   }
+
 }
 
 @media (prefers-color-scheme: dark) {
+
   body {
     background-color: #222;
   }
 
-  banner {
+  html {
     opacity: .5;
   }
+
 }
 
 /* stylelint-enable */
